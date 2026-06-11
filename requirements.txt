@@ -1,0 +1,10 @@
+streamlit==1.35.0
+pandas
+numpy<2
+pillow<11
+matplotlib
+seaborn
+scipy
+scikit-learn
+imbalanced-learn
+xgboost
