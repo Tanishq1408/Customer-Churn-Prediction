@@ -37,10 +37,10 @@ st.sidebar.header("Dashboard Configuration")
 st.sidebar.info("This application tracks the predictive model development lifecycle.")
 
 # ── Dynamic Package Verification ──────────────────────────────────
-@st.cache_resource
-def verify_packages():
-    for pkg in ["imbalanced-learn", "xgboost"]:
-        subprocess.run([sys.executable, "-m", "pip", "install", pkg, "-q"], check=False)
+#@st.cache_resource
+#def verify_packages():
+ #   for pkg in ["imbalanced-learn", "xgboost"]:
+  #      subprocess.run([sys.executable, "-m", "pip", "install", pkg, "-q"], check=False)
 
 verify_packages()
 
