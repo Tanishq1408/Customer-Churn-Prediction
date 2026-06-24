@@ -1232,7 +1232,7 @@ elif page == "🧩  CRISP-DM Summary":
     <div class="info-box">
     📚 <strong>CRISP-DM</strong> (Cross-Industry Standard Process for Data Mining) is the
     gold-standard methodology for data science projects. Our project follows all 6 phases
-    with documented iterations. The professor awards <strong>6 points</strong> for CRISP-DM structure.
+    with documented iterations.
     </div>""", unsafe_allow_html=True)
 
     phases = [
